@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005237126754",
+    "project_id": "hmentregas-138ed",
+    "storage_bucket": "hmentregas-138ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005237126754:android:6b79d420975c7da6ebb33b",
+        "android_client_info": {
+          "package_name": "com.example.hm_entregas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJzf-varh7kaehDMGF5ZaBracBptSpkRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
