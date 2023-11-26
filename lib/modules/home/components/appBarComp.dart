@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hm_entregas/utils/colors.dart';
 
 class AppBarComp extends StatelessWidget implements PreferredSizeWidget {
   const AppBarComp({Key? key}) : super(key: key);
@@ -6,7 +7,11 @@ class AppBarComp extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: const Text('Home Page'),
+      title: const Text(
+        'Home Page',
+        style: TextStyle(color: ThemaColors.primaryBackground),
+      ),
+      backgroundColor: ThemaColors.redCustonColor,
     );
   }
 

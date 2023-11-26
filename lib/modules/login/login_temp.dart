@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hm_entregas/modules/register/register_temp.dart';
 import 'package:hm_entregas/services/auth_services.dart';
+import 'package:hm_entregas/utils/colors.dart';
 import 'package:hm_entregas/utils/snakbar.dart';
 
 class Login extends StatefulWidget {
@@ -91,7 +92,7 @@ class _LoginState extends State<Login> {
                   }
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromRGBO(236, 51, 57, 1),
+                  backgroundColor: ThemaColors.redCustonColor,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),

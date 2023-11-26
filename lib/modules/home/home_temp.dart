@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hm_entregas/modules/home/components/appBarComp.dart';
+import 'package:hm_entregas/modules/home/components/bottomNavigationBar.dart';
 import 'package:hm_entregas/modules/home/components/drawer.dart';
 
 class Home extends StatelessWidget {
@@ -10,6 +11,7 @@ class Home extends StatelessWidget {
     return const Scaffold(
       appBar: AppBarComp(),
       drawer: DrawerComp(),
+      bottomNavigationBar: BottonNavBarComp(),
     );
   }
 }

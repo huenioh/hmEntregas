@@ -22,7 +22,7 @@ class MyWidget extends StatelessWidget {
             ),
             const CircularProgressIndicator(
               valueColor:
-                  AlwaysStoppedAnimation<Color>(Color.fromRGBO(236, 51, 57, 1)),
+                  AlwaysStoppedAnimation<Color>(ThemaColors.redCustonColor),
             ),
           ],
         ),

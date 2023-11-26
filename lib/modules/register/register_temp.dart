@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hm_entregas/services/auth_services.dart';
+import 'package:hm_entregas/utils/colors.dart';
 import 'package:hm_entregas/utils/snakbar.dart';
 
 class Register extends StatefulWidget {
@@ -125,7 +126,7 @@ class _RegisterState extends State<Register> {
                   }
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromRGBO(236, 51, 57, 1),
+                  backgroundColor: ThemaColors.redCustonColor,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
