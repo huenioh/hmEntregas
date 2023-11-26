@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hm_entregas/modules/home/home_temp.dart';
 import 'package:hm_entregas/modules/login/login_temp.dart';
-import 'package:hm_entregas/modules/splash/componentes/child.dart';
+import 'package:hm_entregas/modules/splash/components/child.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -24,6 +24,7 @@ class _SplashViewState extends State<SplashView> {
     });
   }
 
+  @override
   Widget build(BuildContext context) {
     return const MyWidget();
   }
